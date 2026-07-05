@@ -4,17 +4,22 @@ defaultContentLanguage = 'zh'
 hasCJKLanguage = true
 pagination.pagerSize = 10
 
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+  series = 'series'
+
 [languages]
 [languages.zh]
   languageName = '中文'
   contentDir = 'content'
-  title = '从 AP 到 AI 网络'
+  title = "Jeffrey 的博客"
   weight = 1
 
 [languages.zh.params]
   name = 'Jeffrey Hu'
-  description = '一个嵌入式工程师的 AI 网络转型实录'
-  keywords = ['RDMA', 'AI网络', 'RoCEv2', '转型', '思科']
+  description = '技术博客：网络、内核、AI Infra'
+  keywords = ['RDMA', 'AI网络', 'RoCEv2', '转型', '思科', 'Linux网络']
   showToc = true
   showShareButtons = false
   showReadingTime = true
@@ -24,8 +29,8 @@ pagination.pagerSize = 10
   showSeriesNavigation = true
 
 [languages.zh.params.homeInfoParams]
-  Title = '从 AP 到 AI 网络'
-  Content = '一个嵌入式工程师的转型实录 — 思科上海 · RDMA / AI 网络方向 · 24 个月计划'
+  Title = "Jeffrey 的博客"
+  Content = '系列：从 AP 到 AI 网络 · Linux 网络基础 · RDMA / AI Infra'
 
 [[languages.zh.params.socialIcons]]
   name = 'github'
@@ -37,11 +42,11 @@ pagination.pagerSize = 10
   name = '归档'
   url = '/zh/archives'
   weight = 10
-[[languages.zh.menu.main]]
-  identifier = 'series'
-  name = '系列'
-  url = '/zh/series'
-  weight = 20
+  [[languages.zh.menu.main]]
+    identifier = 'series'
+    name = '系列'
+    url = '/series/'
+    weight = 20
 [[languages.zh.menu.main]]
   identifier = 'tags'
   name = '标签'
@@ -56,13 +61,13 @@ pagination.pagerSize = 10
 [languages.en]
   languageName = 'English'
   contentDir = 'content'
-  title = 'From AP to AI Network'
+  title = "Jeffrey's Blog"
   weight = 2
 
 [languages.en.params]
   name = 'Jeffrey Hu'
-  description = "An embedded engineer's journey transitioning to AI networking"
-  keywords = ['RDMA', 'AI Networking', 'RoCEv2', 'Career Transition', 'Cisco']
+  description = 'Tech blog: Networking, Kernel, AI Infra'
+  keywords = ['RDMA', 'AI Networking', 'RoCEv2', 'Linux Networking', 'Cisco']
   showToc = true
   showShareButtons = false
   showReadingTime = true
@@ -72,8 +77,8 @@ pagination.pagerSize = 10
   showSeriesNavigation = true
 
 [languages.en.params.homeInfoParams]
-  Title = 'From AP to AI Network'
-  Content = "An embedded engineer's journey — Cisco Shanghai · RDMA / AI Networking · 24-month plan"
+  Title = "Jeffrey's Blog"
+  Content = 'Series: From AP to AI Network · Linux Networking Fundamentals · RDMA / AI Infra'
 
 [[languages.en.params.socialIcons]]
   name = 'github'
@@ -85,11 +90,11 @@ pagination.pagerSize = 10
   name = 'Archives'
   url = '/en/archives'
   weight = 10
-[[languages.en.menu.main]]
-  identifier = 'series'
-  name = 'Series'
-  url = '/en/series'
-  weight = 20
+  [[languages.en.menu.main]]
+    identifier = 'series'
+    name = 'Series'
+    url = '/series/'
+    weight = 20
 [[languages.en.menu.main]]
   identifier = 'tags'
   name = 'Tags'

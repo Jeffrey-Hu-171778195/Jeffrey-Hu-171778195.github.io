@@ -1,5 +1,5 @@
 +++
-title = "Why Large Language Model Training Can't Live Without RDMA"
+title = 'A01 | Why Large Language Model Training Needs RDMA'
 date = 2026-07-05T15:22:13+08:00
 draft = false
 series = 'From AP to AI Network'
@@ -191,5 +191,5 @@ The next post will guide you through **getting started with RDMA at zero cost**,
 
 ---
 
-*Series home: [From AP to AI Network](/en/)*  
-*Next: [Getting Started with RDMA: Your First Program Using soft-RoCE →]()*
+*Series home: [From AP to AI Network](/en/series/from-ap-to-ai-network/)*  
+*Next: [A02 | Getting Started with RDMA: Your First Program Using soft-RoCE →]()*
