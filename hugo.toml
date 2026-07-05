@@ -1,0 +1,58 @@
+baseURL = 'https://Jeffrey-Hu-171778195.github.io/'
+locale = 'zh-CN'
+title = '从 AP 到 AI 网络'
+theme = 'PaperMod'
+
+# 文章设置
+defaultContentLanguage = 'zh'
+hasCJKLanguage = true
+pagination.pagerSize = 10
+
+[params]
+  # 博主信息
+  name = 'Jeffrey Hu'
+  description = '一个嵌入式工程师的 AI 网络转型实录'
+  keywords = ['RDMA', 'AI网络', 'RoCEv2', '转型', '思科']
+
+  # 首页信息
+  [params.homeInfoParams]
+    Title = '从 AP 到 AI 网络'
+    Content = '一个嵌入式工程师的转型实录 — 思科上海 · RDMA / AI 网络方向 · 24 个月计划'
+
+  # 社交链接
+  socialIcons = [
+    { name = 'github', url = 'https://github.com/Jeffrey-Hu-171778195' }
+  ]
+
+  # 文章设置
+  showToc = true          # 显示目录
+  showShareButtons = false
+  showReadingTime = true   # 显示阅读时间
+  showBreadCrumbs = true
+  showCodeCopyButtons = true
+
+  # 系列支持
+  showSeries = true
+  showSeriesNavigation = true
+
+[menu]
+  [[menu.main]]
+    identifier = 'archives'
+    name = '归档'
+    url = '/archives'
+    weight = 10
+  [[menu.main]]
+    identifier = 'series'
+    name = '系列'
+    url = '/series'
+    weight = 20
+  [[menu.main]]
+    identifier = 'tags'
+    name = '标签'
+    url = '/tags'
+    weight = 30
+  [[menu.main]]
+    identifier = 'search'
+    name = '搜索'
+    url = '/search'
+    weight = 40
